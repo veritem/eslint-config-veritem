@@ -1,5 +1,5 @@
 {
-  "name": "@veritem/eslint-config",
+  "name": "@veritem/config",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/veritem/veritem-eslint-config.git"
+    "url": "git+https://github.com/veritem/eslint-config-veritem.git"
   },
   "keywords": [],
   "author": "Makuza Mugabo Verite <mugaboverite@gmail.com> (https://veritem.me/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/veritem/veritem-eslint-config/issues"
+    "url": "https://github.com/veritem/eslint-config-veritem/issues"
   },
-  "homepage": "https://github.com/veritem/veritem-eslint-config#readme",
+  "homepage": "https://github.com/veritem/eslint-config-veritem#readme",
   "dependencies": {
     "eslint": "^8.12.0"
   }

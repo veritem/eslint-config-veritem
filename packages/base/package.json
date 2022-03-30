@@ -1,5 +1,5 @@
 {
-  "name": "typescript",
+  "name": "eslint-config-veritem",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,6 @@
   "author": "Makuza Mugabo Verite <mugaboverite@gmail.com> (https://veritem.me/)",
   "license": "MIT",
   "dependencies": {
-    "typescript": "^4.6.3"
+    "eslint": "^8.12.0"
   }
 }
