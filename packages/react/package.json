@@ -6,7 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "peerDependencies": {
+    "eslint": ">=8.0.0"
+  },
   "keywords": [],
   "author": "Makuza Mugabo Verite <mugaboverite@gmail.com> (https://veritem.me/)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.12.0"
+  }
 }
