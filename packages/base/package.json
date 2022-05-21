@@ -15,5 +15,8 @@
   "dependencies": {
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-import": "^2.26.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
