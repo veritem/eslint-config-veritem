@@ -1,6 +1,6 @@
 {
   "name": "@veritem/eslint-config-react",
-  "version": "0.0.2-beta.14",
+  "version": "0.0.2-beta.15",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,8 +12,7 @@
   "keywords": [],
   "author": "Makuza Mugabo Verite <mugaboverite@gmail.com> (https://veritem.me/)",
   "license": "MIT",
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "peerDependenciesMeta": {
     "eslint": ">=7.4.0"
   },

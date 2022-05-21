@@ -1,6 +1,6 @@
 {
   "name": "@veritem/eslint-config-monorepo",
-  "version": "0.0.2-beta.14",
+  "version": "0.0.2-beta.15",
   "description": "",
   "main": "index.js",
   "scripts": {
