@@ -12,6 +12,12 @@
   "keywords": [],
   "author": "Makuza Mugabo Verite <mugaboverite@gmail.com> (https://veritem.me/)",
   "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.25.0",
+    "@typescript-eslint/parser": "^5.25.0",
+    "@veritem/eslint-config-base": "workspace:*",
+    "eslint-plugin-n": "^15.2.0"
+  },
   "devDependencies": {
     "bumpp": "^7.1.1",
     "eslint": "^8.12.0",

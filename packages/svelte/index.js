@@ -1,3 +1,5 @@
 module.exports = {
-    "extends": "eslint:recommended"
+    extends: [
+        '@veritem/eslint-config-ts'
+    ]
 }

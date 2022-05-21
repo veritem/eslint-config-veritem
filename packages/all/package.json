@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@veritem/eslint-config-react": "workspace:*",
-    "@veritem/eslint-config-typescript": "workspace:*"
+    "@veritem/eslint-config-svelte": "workspace:*"
   },
   "keywords": [],
   "author": "Makuza Mugabo Verite <mugaboverite@gmail.com> (https://veritem.me/)",

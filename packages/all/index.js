@@ -1,6 +1,6 @@
 module.exports = {
     extends: [
-        "@veritem/eslint-config-react",
-        "@veritem/eslint-config-svelte",
+        '@veritem/eslint-config-react',
+        '@veritem/eslint-config-svelte'
     ]
 }

@@ -12,6 +12,9 @@
   "keywords": [],
   "author": "Makuza Mugabo Verite <mugaboverite@gmail.com> (https://veritem.me/)",
   "license": "MIT",
+  "dependencies": {
+    "@veritem/eslint-config-ts": "workspace:*"
+  },
   "devDependencies": {
     "eslint": "^8.12.0"
   },
