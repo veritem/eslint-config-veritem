@@ -1,5 +1,5 @@
 {
-  "name": "@veritem/eslint-config-react",
+  "name": "@veritem/eslint-config-svelte",
   "version": "0.0.2-beta.16",
   "description": "",
   "main": "index.js",
