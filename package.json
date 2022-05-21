@@ -1,5 +1,5 @@
 {
-  "name": "@veritem/eslint-config",
+  "name": "@veritem/eslint-config-monorepo",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
