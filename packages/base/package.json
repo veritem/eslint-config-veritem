@@ -1,6 +1,6 @@
 {
   "name": "@veritem/eslint-config-base",
-  "version": "0.0.2-beta.10",
+  "version": "0.0.2-beta.11",
   "description": "",
   "main": "index.js",
   "scripts": {
