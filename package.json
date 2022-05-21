@@ -1,11 +1,11 @@
 {
   "name": "@veritem/eslint-config-monorepo",
-  "version": "0.0.2-beta.8",
+  "version": "0.0.2-beta.9",
   "description": "",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "publish": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
+    "publish": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish"
   },
   "repository": {
     "type": "git",
