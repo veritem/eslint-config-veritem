@@ -3,7 +3,7 @@
 ![npm](https://img.shields.io/npm/v/@veritem/eslint-config)
 
 ```bash 
-npm install @veritem/eslint-config
+pnpm install -D @veritem/eslint-config
 ```
 
 
@@ -14,3 +14,8 @@ npm install @veritem/eslint-config
     "extends": "@veritem",
 }
 ```
+
+
+#### Licence 
+
+[MIT](https://github.com/veritem/eslint-config-veritem/blob/main/LICENSE) - Makuza Mugabo verite &copy; 2022 - PRESENT 
