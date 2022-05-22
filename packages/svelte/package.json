@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint . --config=index.js"
   },
   "peerDependencies": {
     "eslint": ">=8.0.0"
@@ -13,10 +13,11 @@
   "author": "Makuza Mugabo Verite <mugaboverite@gmail.com> (https://veritem.me/)",
   "license": "MIT",
   "dependencies": {
-    "@veritem/eslint-config-ts": "workspace:*"
+    "@veritem/eslint-config-ts": "workspace:*",
+    "eslint-plugin-svelte3": "^4.0.0"
   },
   "devDependencies": {
-    "eslint": "^8.12.0"
+    "eslint": "^8.16.0"
   },
   "publishConfig": {
     "access": "public"

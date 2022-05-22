@@ -19,9 +19,9 @@
   },
   "homepage": "https://github.com/veritem/eslint-config-veritem#readme",
   "devDependencies": {
+    "@veritem/eslint-config": "*",
     "bumpp": "^7.1.1",
-    "eslint": "^8.12.0",
-    "@veritem/eslint-config": "*"
+    "eslint": "^8.16.0"
   },
   "publishConfig": {
     "access": "public"

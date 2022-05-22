@@ -1,21 +1,19 @@
-### @veritem/eslint-config 
+### @veritem/eslint-config
 
 ![npm](https://img.shields.io/npm/v/@veritem/eslint-config)
 
-```bash 
+```bash
 pnpm install -D @veritem/eslint-config
 ```
 
+#### Config `.eslintrc.js`
 
-### Config `.eslintrc.js`
-
-```json 
+```json
 {
-    "extends": "@veritem",
+  "extends": "@veritem"
 }
 ```
 
+#### Licence
 
-#### Licence 
-
-[MIT](https://github.com/veritem/eslint-config-veritem/blob/main/LICENSE) - Makuza Mugabo verite &copy; 2022 - PRESENT 
+[MIT](https://github.com/veritem/eslint-config-veritem/blob/main/LICENSE) - Makuza Mugabo verite &copy; 2022 - PRESENT
