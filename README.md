@@ -6,7 +6,7 @@
 pnpm install -D @veritem/eslint-config
 ```
 
-#### Config `.eslintrc.js`
+#### Config `.eslintrc.json`
 
 ```json
 {
