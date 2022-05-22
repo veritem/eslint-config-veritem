@@ -34,7 +34,8 @@ module.exports = {
         'plugin:eslint-comments/recommended'
     ],
     plugins: [
-        'unicorn'
+        'unicorn',
+        'unused-imports'
     ],
     rules: {
     // import
@@ -81,6 +82,14 @@ module.exports = {
         // Enforce throwing type error when throwing error while checking typeof
         'unicorn/prefer-type-error': 'error',
         // Use new when throwing error
-        'unicorn/throw-new-error': 'error'
+        'unicorn/throw-new-error': 'error',
+
+        // unused-imports
+        'no-unused-vars': 'off',
+        'unused-imports/no-unused-imports': 'error',
+        'unused-imports/no-unused-vars': [
+            'warn',
+            { vars: 'all', varsIgnorePattern: '^_', args: 'after-used', argsIgnorePattern: '^_' }
+        ]
     }
 }

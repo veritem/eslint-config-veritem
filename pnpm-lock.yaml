@@ -27,11 +27,13 @@ importers:
       eslint-plugin-import: ^2.26.0
       eslint-plugin-promise: ^6.0.0
       eslint-plugin-unicorn: ^42.0.0
+      eslint-plugin-unused-imports: ^2.0.0
     dependencies:
       eslint-plugin-eslint-comments: 3.2.0_eslint@8.16.0
       eslint-plugin-import: 2.26.0_eslint@8.16.0
       eslint-plugin-promise: 6.0.0_eslint@8.16.0
       eslint-plugin-unicorn: 42.0.0_eslint@8.16.0
+      eslint-plugin-unused-imports: 2.0.0_eslint@8.16.0
     devDependencies:
       eslint: 8.16.0
 
@@ -886,6 +888,25 @@ packages:
       safe-regex: 2.1.1
       semver: 7.3.7
       strip-indent: 3.0.0
+    dev: false
+
+  /eslint-plugin-unused-imports/2.0.0_eslint@8.16.0:
+    resolution: {integrity: sha512-3APeS/tQlTrFa167ThtP0Zm0vctjr4M44HMpeg1P4bK6wItarumq0Ma82xorMKdFsWpphQBlRPzw/pxiVELX1A==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    peerDependencies:
+      '@typescript-eslint/eslint-plugin': ^5.0.0
+      eslint: ^8.0.0
+    peerDependenciesMeta:
+      '@typescript-eslint/eslint-plugin':
+        optional: true
+    dependencies:
+      eslint: 8.16.0
+      eslint-rule-composer: 0.3.0
+    dev: false
+
+  /eslint-rule-composer/0.3.0:
+    resolution: {integrity: sha512-bt+Sh8CtDmn2OajxvNO+BX7Wn4CIWMpTRm3MaiKPCQcnnlm0CS2mhui6QaoeQugs+3Kj2ESKEEGJUdVafwhiCg==}
+    engines: {node: '>=4.0.0'}
     dev: false
 
   /eslint-scope/5.1.1:

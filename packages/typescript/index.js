@@ -12,5 +12,8 @@ module.exports = {
             node: { extensions: ['.js', '.jsx', '.mjs', '.ts', '.tsx', '.d.ts'] }
         }
     },
-    overrides: basic.overrides
+    overrides: basic.overrides,
+    rules: {
+        '@typescript-eslint/no-unused-vars': 'off'
+    }
 }
