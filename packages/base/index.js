@@ -31,11 +31,13 @@ module.exports = {
     extends: [
         './standard',
         'plugin:import/recommended',
-        'plugin:eslint-comments/recommended'
+        'plugin:eslint-comments/recommended',
+        'plugin:markdown/recommended'
     ],
     plugins: [
         'unicorn',
-        'unused-imports'
+        'unused-imports',
+        'html'
     ],
     rules: {
     // import

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint . --config=index.js"
   },
   "keywords": [],
   "author": "Makuza Mugabo Verite <mugaboverite@gmail.com> (https://veritem.me/)",
@@ -14,7 +14,9 @@
   },
   "dependencies": {
     "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-html": "^6.2.0",
     "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-markdown": "^2.2.1",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-unicorn": "^42.0.0",
     "eslint-plugin-unused-imports": "^2.0.0"
