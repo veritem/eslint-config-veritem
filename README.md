@@ -8,9 +8,23 @@ pnpm install -D @veritem/eslint-config
 
 #### Config `.eslintrc.json`
 
+> If you're building a frontend app
+
 ```json
 {
   "extends": "@veritem"
+}
+```
+
+> If you want to use it in node 
+
+
+```json
+{
+    "extends": [
+        "@veritem/base",
+        "@veritem/ts"
+    ]
 }
 ```
 
