@@ -3,7 +3,6 @@ const basic = require('@veritem/eslint-config-base')
 
 module.exports = {
     extends: [
-    // "plugin:import/typescript",
         'plugin:@typescript-eslint/recommended',
         '@veritem/eslint-config-base'
     ],

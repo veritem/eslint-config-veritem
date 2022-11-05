@@ -13,7 +13,6 @@ module.exports = {
     ],
     rules: {},
     settings: {
-        // 'svelte3/typescript': () => require('typescript'),
         'svelte3/typescript': true
     }
 }
