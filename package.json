@@ -20,8 +20,8 @@
   "homepage": "https://github.com/veritem/eslint-config-veritem#readme",
   "devDependencies": {
     "@veritem/eslint-config": "*",
-    "bumpp": "^7.1.1",
-    "eslint": "^8.16.0"
+    "bumpp": "^8.2.1",
+    "eslint": "^8.26.0"
   },
   "publishConfig": {
     "access": "public"
