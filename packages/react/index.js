@@ -5,7 +5,7 @@ module.exports = {
     ],
     settings: {
         react: {
-            version: 'detect'
+            version: '18.2.0'
         }
     },
     rules: {

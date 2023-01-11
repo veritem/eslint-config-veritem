@@ -6,13 +6,21 @@
 pnpm install -D @veritem/eslint-config
 ```
 
-#### Config `.eslintrc.json`
+#### Config `.eslintrc`
 
-> If you're building a frontend app
+> If you're building a frontend app with `react`
 
 ```json
 {
   "extends": "@veritem"
+}
+```
+
+> If you're building a frontend app with `svelte`
+
+```json
+{
+  "extends": "@veritem/svelte"
 }
 ```
 

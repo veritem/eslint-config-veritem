@@ -13,6 +13,7 @@
   "author": "Makuza Mugabo Verite <mugaboverite@gmail.com> (https://veritem.me/)",
   "license": "MIT",
   "dependencies": {
+    "@typescript-eslint/parser": "^5.25.0",
     "@veritem/eslint-config-ts": "workspace:*",
     "eslint-plugin-svelte3": "^4.0.0"
   },
