@@ -1,6 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const basic = require('@veritem/eslint-config-base')
-
 module.exports = {
     extends: [
         'plugin:@typescript-eslint/recommended',
@@ -11,7 +8,6 @@ module.exports = {
             node: { extensions: ['.js', '.jsx', '.mjs', '.ts', '.tsx', '.d.ts'] }
         }
     },
-    overrides: basic.overrides,
     rules: {
         '@typescript-eslint/no-unused-vars': 'off'
     }
