@@ -10,8 +10,8 @@ module.exports = {
                 extensions: ['.js', '.mjs']
             }
         },
-		"snakecasejs/filter": ["ClassDeclaration", "NewExpression"],
-        "snakecasejs/whitelist": ["externalPath", "setNumber"]
+        'snakecasejs/filter': ['ClassDeclaration', 'NewExpression'],
+        'snakecasejs/whitelist': ['externalPath', 'setNumber']
     },
     ignorePatterns: [
         '*.min.*',
@@ -44,8 +44,8 @@ module.exports = {
         'html'
     ],
     rules: {
-		//snakecasejs
-		"snakecasejs/snakecasejs": "error",
+        // snakecasejs
+        'snakecasejs/snakecasejs': 'error',
         // import
         'import/order': 'error',
         'import/first': 'error',
@@ -57,7 +57,7 @@ module.exports = {
         // common
         camelcase: 'off',
         indent: ['error', 4, { SwitchCase: 1 }],
-		"no-tabs": 'off',
+        'no-tabs': 'off',
         'linebreak-style': ['error', 'unix'],
         quotes: ['error', 'single'],
         semi: ['error', 'never'],

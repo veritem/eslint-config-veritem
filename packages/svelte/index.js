@@ -1,7 +1,7 @@
 module.exports = {
     extends: [
         'plugin:@veritem/eslint-config-ts',
-		'plugin:@unocss'
+        'plugin:@unocss'
     ],
     plugins: [
         'svelte3'

@@ -151,7 +151,7 @@ module.exports = {
         'no-sequences': 'error',
         'no-shadow-restricted-names': 'error',
         'no-sparse-arrays': 'error',
-        'no-tabs': "off",
+        'no-tabs': 'off',
         'no-template-curly-in-string': 'error',
         'no-this-before-super': 'error',
         'no-throw-literal': 'error',

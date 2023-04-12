@@ -7,7 +7,7 @@ module.exports = {
         react: {
             version: 'detect'
         },
-		"snakecasejs/whitelist": ["externalPath", "setNumber","useState", "useMemo", "useCallBack"]
+        'snakecasejs/whitelist': ['externalPath', 'setNumber', 'useState', 'useMemo', 'useCallBack']
     },
     rules: {
         'react/prop-types': 0,
