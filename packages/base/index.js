@@ -9,7 +9,9 @@ module.exports = {
             node: {
                 extensions: ['.js', '.mjs']
             }
-        }
+        },
+		"snakecasejs/filter": ["ClassDeclaration", "NewExpression"],
+        "snakecasejs/whitelist": ["externalPath", "setNumber"]
     },
     ignorePatterns: [
         '*.min.*',
@@ -26,13 +28,15 @@ module.exports = {
         '__snapshots__',
         '!.github',
         '!.vitepress',
-        '!.vscode'
+        '!.vscode',
+        'tsconfig.json'
     ],
     extends: [
         './standard',
         'plugin:import/recommended',
         'plugin:eslint-comments/recommended',
-        'plugin:markdown/recommended'
+        'plugin:markdown/recommended',
+        'plugin:snakecasejs'
     ],
     plugins: [
         'unicorn',
@@ -40,15 +44,20 @@ module.exports = {
         'html'
     ],
     rules: {
-    // import
+		//snakecasejs
+		"snakecasejs/snakecasejs": "error",
+        // import
         'import/order': 'error',
         'import/first': 'error',
         'import/no-mutable-exports': 'error',
         'import/no-unresolved': 'off',
         'import/no-absolute-path': 'off',
+        'import/named': 'off',
 
         // common
-        indent: ['error', 4],
+        camelcase: 'off',
+        indent: ['error', 4, { SwitchCase: 1 }],
+		"no-tabs": 'off',
         'linebreak-style': ['error', 'unix'],
         quotes: ['error', 'single'],
         semi: ['error', 'never'],

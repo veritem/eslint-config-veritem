@@ -1,27 +1,31 @@
 {
-  "name": "@veritem/eslint-config-base",
-  "version": "0.0.5",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "lint": "eslint . --config=index.js"
-  },
-  "keywords": [],
-  "author": "Makuza Mugabo Verite <mugaboverite@gmail.com> (https://veritem.me/)",
-  "license": "MIT",
-  "devDependencies": {
-    "eslint": "^8.16.0"
-  },
-  "dependencies": {
-    "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-html": "^6.2.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-markdown": "^2.2.1",
-    "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-unicorn": "^42.0.0",
-    "eslint-plugin-unused-imports": "^2.0.0"
-  },
-  "publishConfig": {
-    "access": "public"
-  }
+	"name": "@veritem/eslint-config-base",
+	"version": "0.0.5",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"lint": "eslint . --config=index.js"
+	},
+	"keywords": [],
+	"author": "Makuza Mugabo Verite <mugaboverite@gmail.com> (https://veritem.me/)",
+	"license": "MIT",
+	"devDependencies": {
+		"eslint": "^8.38.0"
+	},
+	"dependencies": {
+		"eslint-plugin-eslint-comments": "^3.2.0",
+		"eslint-plugin-html": "^7.1.0",
+		"eslint-plugin-import": "^2.27.5",
+		"eslint-plugin-markdown": "^3.0.0",
+		"eslint-plugin-promise": "^6.1.1",
+		"eslint-plugin-snakecasejs": "^2.2.0",
+		"eslint-plugin-unicorn": "^46.0.0",
+		"eslint-plugin-unused-imports": "^2.0.0"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"peerDependencies": {
+		"typescript": ">=4.x"
+	}
 }

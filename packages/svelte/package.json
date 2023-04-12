@@ -1,25 +1,28 @@
 {
-  "name": "@veritem/eslint-config-svelte",
-  "version": "0.0.5",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "lint": "eslint . --config=index.js"
-  },
-  "peerDependencies": {
-    "eslint": ">=8.0.0"
-  },
-  "keywords": [],
-  "author": "Makuza Mugabo Verite <mugaboverite@gmail.com> (https://veritem.me/)",
-  "license": "MIT",
-  "dependencies": {
-    "@veritem/eslint-config-ts": "workspace:*",
-    "eslint-plugin-svelte3": "^4.0.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.16.0"
-  },
-  "publishConfig": {
-    "access": "public"
-  }
+	"name": "@veritem/eslint-config-svelte",
+	"version": "0.0.5",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"lint": "eslint . --config=index.js"
+	},
+	"peerDependencies": {
+		"eslint": ">=8.0.0"
+	},
+	"keywords": [],
+	"author": "Makuza Mugabo Verite <mugaboverite@gmail.com> (https://veritem.me/)",
+	"license": "MIT",
+	"dependencies": {
+		"@unocss/eslint-config": "^0.51.4",
+		"@veritem/eslint-config-ts": "workspace:*",
+		"eslint-plugin-svelte3": "^4.0.0"
+	},
+	"devDependencies": {
+		"eslint": "8.x",
+		"svelte": "3.x",
+		"typescript": "4.x"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }

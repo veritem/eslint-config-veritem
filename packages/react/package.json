@@ -13,17 +13,17 @@
   "author": "Makuza Mugabo Verite <mugaboverite@gmail.com> (https://veritem.me/)",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^8.16.0",
-    "react": "^18.1.0",
-    "typescript": "^4.6.4"
+    "eslint": "^8.38.0",
+    "react": "^18.2.0",
+    "typescript": "^5.0.4"
   },
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
     "@veritem/eslint-config-ts": "workspace:*",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-react": "^7.30.0",
-    "eslint-plugin-react-hooks": "^4.5.0"
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
   }
 }
