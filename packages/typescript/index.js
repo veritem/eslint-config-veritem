@@ -1,3 +1,6 @@
+// TODO:
+// Check if it's inside a typescript project 
+
 module.exports = {
     extends: [
         'plugin:@typescript-eslint/recommended',
