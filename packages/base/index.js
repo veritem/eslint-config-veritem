@@ -9,9 +9,7 @@ module.exports = {
             node: {
                 extensions: ['.js', '.mjs']
             }
-        },
-        'snakecasejs/filter': ['ClassDeclaration', 'NewExpression'],
-        'snakecasejs/whitelist': ['externalPath', 'setNumber']
+        }
     },
     ignorePatterns: [
         '*.min.*',
@@ -35,8 +33,7 @@ module.exports = {
         './standard',
         'plugin:import/recommended',
         'plugin:eslint-comments/recommended',
-        'plugin:markdown/recommended',
-        'plugin:snakecasejs'
+        'plugin:markdown/recommended'
     ],
     plugins: [
         'unicorn',
@@ -44,8 +41,6 @@ module.exports = {
         'html'
     ],
     rules: {
-        // snakecasejs
-        'snakecasejs/snakecasejs': 'error',
         // import
         'import/order': 'error',
         'import/first': 'error',
