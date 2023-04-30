@@ -6,7 +6,7 @@ module.exports = {
     settings: {
         react: {
             version: '>=18'
-        },
+        }
     },
     rules: {
         'react/prop-types': 0,
