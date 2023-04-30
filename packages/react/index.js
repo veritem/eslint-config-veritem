@@ -5,9 +5,8 @@ module.exports = {
     ],
     settings: {
         react: {
-            version: 'detect'
+            version: '>=18'
         },
-        'snakecasejs/whitelist': ['externalPath', 'setNumber', 'useState', 'useMemo', 'useCallBack']
     },
     rules: {
         'react/prop-types': 0,
