@@ -5,7 +5,7 @@ module.exports = {
     ],
     settings: {
         react: {
-            version: '>=18'
+            version: '>=18.0.0'
         }
     },
     rules: {
