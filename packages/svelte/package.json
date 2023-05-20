@@ -13,9 +13,9 @@
 	"author": "Makuza Mugabo Verite <mugaboverite@gmail.com> (https://veritem.me/)",
 	"license": "MIT",
 	"dependencies": {
-		"@unocss/eslint-config": "^0.51.4",
 		"@veritem/eslint-config-ts": "workspace:*",
-		"eslint-plugin-svelte3": "^4.0.0"
+		"eslint-plugin-svelte3": "^4.0.0",
+		"@unocss/eslint-config": "^0.51.4"
 	},
 	"devDependencies": {
 		"eslint": ">=8.x",

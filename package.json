@@ -21,7 +21,7 @@
   "devDependencies": {
     "@veritem/eslint-config": "*",
     "bumpp": "^9.1.0",
-    "eslint": "^8.38.0"
+    "eslint": "^8.41.0"
   },
   "publishConfig": {
     "access": "public"
