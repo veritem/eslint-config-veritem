@@ -12,15 +12,15 @@
 	"author": "Makuza Mugabo Verite <mugaboverite@gmail.com> (https://veritem.me/)",
 	"license": "MIT",
 	"dependencies": {
-		"@typescript-eslint/eslint-plugin": "^5.58.0",
-		"@typescript-eslint/parser": "^5.58.0",
+		"@typescript-eslint/eslint-plugin": "^6.2.0",
+		"@typescript-eslint/parser": "^6.2.0",
 		"@veritem/eslint-config-base": "workspace:*",
-		"eslint-plugin-n": "^15.7.0"
+		"eslint-plugin-n": "^16.0.1"
 	},
 	"devDependencies": {
-		"bumpp": "^9.1.0",
-		"eslint": "^8.38.0",
-		"typescript": "^5.0.4"
+		"bumpp": "^9.1.1",
+		"eslint": "^8.45.0",
+		"typescript": "^5.1.6"
 	},
 	"publishConfig": {
 		"access": "public"

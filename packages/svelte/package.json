@@ -13,14 +13,14 @@
 	"author": "Makuza Mugabo Verite <mugaboverite@gmail.com> (https://veritem.me/)",
 	"license": "MIT",
 	"dependencies": {
+		"@unocss/eslint-config": "^0.53.6",
 		"@veritem/eslint-config-ts": "workspace:*",
-		"eslint-plugin-svelte3": "^4.0.0",
-		"@unocss/eslint-config": "^0.51.4"
+		"eslint-plugin-svelte3": "^4.0.0"
 	},
 	"devDependencies": {
-		"eslint": ">=8.x",
+		"eslint": ">=8.45.0",
 		"svelte": ">=3.x",
-		"typescript": ">=4.x"
+		"typescript": ">=5.1.6"
 	},
 	"publishConfig": {
 		"access": "public"
