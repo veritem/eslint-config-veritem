@@ -1,9 +1,7 @@
-// TODO:
-// Check if it's inside a typescript project
-
 module.exports = {
     extends: [
         'plugin:@typescript-eslint/recommended',
+		'plugin:@typescript-eslint/strict-type-checked',
         '@veritem/eslint-config-base'
     ],
     settings: {
