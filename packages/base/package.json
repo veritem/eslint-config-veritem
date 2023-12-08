@@ -10,16 +10,16 @@
 	"author": "Makuza Mugabo Verite <mugaboverite@gmail.com> (https://veritem.me/)",
 	"license": "MIT",
 	"devDependencies": {
-		"eslint": "^8.38.0"
+		"eslint": "^8.48.0"
 	},
 	"dependencies": {
 		"eslint-plugin-eslint-comments": "^3.2.0",
 		"eslint-plugin-html": "^7.1.0",
-		"eslint-plugin-import": "^2.27.5",
-		"eslint-plugin-markdown": "^3.0.0",
+		"eslint-plugin-import": "^2.28.1",
+		"eslint-plugin-markdown": "^3.0.1",
 		"eslint-plugin-promise": "^6.1.1",
-		"eslint-plugin-unicorn": "^46.0.0",
-		"eslint-plugin-unused-imports": "^2.0.0"
+		"eslint-plugin-unicorn": "^48.0.1",
+		"eslint-plugin-unused-imports": "^3.0.0"
 	},
 	"publishConfig": {
 		"access": "public"
